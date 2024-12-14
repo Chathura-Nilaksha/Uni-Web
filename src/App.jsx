@@ -7,6 +7,7 @@ import Title from './components/title/title.jsx'
 import About from './components/about/About.jsx'
 import Campus from './components/campus/Campus.jsx'
 import Testimonials from './components/testimonials/testimonials.jsx'
+import Contact from './components/contact/Contact.jsx'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <div className="container">
+        
         <Title subTitle="Our Program" title="What we Offer"/>
         <Programs/>
         {/* <Title subTitle="Gallery" title="Campus Photos"/>  */}
@@ -23,6 +25,9 @@ const App = () => {
         <Campus/>
         <Title subTitle="TESTIMONIALS" title="What Students Says"/>
         <Testimonials/>
+        <Title subTitle="Contact us" title="Get in Toucgh"/>
+        <Contact/>
+
       </div>
       
     </div> 
