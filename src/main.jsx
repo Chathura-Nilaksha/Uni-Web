@@ -26,13 +26,17 @@ createRoot(document.getElementById('root')).render(
 /////////////////////////
 // SPECIAL FEATURES, LIBRARIES, APIs USED IN THIS PROJECT
 
-// 1.web3forms --> For contact us forms
+// 1. web3forms --> For contact us forms
 //      This helps to send inquiry messages (form submitions) to my 
 //      registering email address.
+
+// 2. For scroll the page---NPM DEPENDANCY
+//      To install--> npm install react-scroll
 
 /////////////////////////
 // NOTES: CSS
 
+// 1.
 // when "," -> oonama ekakata adalai.
 //      " " (without comma) -> mehi thiyana hema ekakma thiyena 
 //                              HTML tag valata adalava. 
@@ -45,9 +49,26 @@ createRoot(document.getElementById('root')).render(
 // .next-btn, .back-btn {CSS}  -->  /*Appling to any of theses clses */
 
 
-
+// 2.
 //  HOVER ACTION          .program:hover .caption {
 //                            opacity: 1;
 //                            padding-top: 0;
 //                        }  
-                    
+        
+// 3.
+// Special className typing way.
+//        container is a one className.
+//        Other--> ${sticky ? "dark-nav":""} is giving a dynamic className.
+//        both inside {`  `}
+//    className={ ` container ${sticky ? "dark-nav":""}  ` }  > 
+
+// 4.
+// Link tag-the way of Linking to Navigate.
+//
+//   <div className='programs' id='programs'> 
+//      {/* id uses to Link tag purpose. If the to (target) 
+//          of Link tag is same name as this above className,
+//          then no need to use an "id" property.
+//         (here "id" is inserting to the to(target) of the Link tag)  */}
+//
+//       <Link to='hero' smooth={true} offset={0} duration={500}></Link>                    

@@ -3,7 +3,11 @@ import './Programs.css'
 
 const Programs = () => {
   return (
-    <div className='programs'>
+    <div className='programs' id='programs'> 
+                {/* id uses to Link tag purpose. If the to (target) 
+                of Link tag is same name as this above className,
+                then no need to use an "id" property.
+                (here "id" is inserting to the to(target) of the Link tag)  */}
         <div className="program">
             <img src="" alt="" />
             <div className="caption">

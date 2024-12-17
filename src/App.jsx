@@ -8,6 +8,7 @@ import About from './components/about/About.jsx'
 import Campus from './components/campus/Campus.jsx'
 import Testimonials from './components/testimonials/testimonials.jsx'
 import Contact from './components/contact/Contact.jsx'
+import Footer from './components/footer/Footer.jsx'
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Testimonials/>
         <Title subTitle="Contact us" title="Get in Toucgh"/>
         <Contact/>
+        <Footer/>
 
       </div>
       
