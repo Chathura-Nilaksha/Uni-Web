@@ -22,6 +22,9 @@ createRoot(document.getElementById('root')).render(
 
 // 12.15--sto---1.55.53-  2.03.36
 // 12.17--2.34.56
+// 12.19--
+//    NET- Z index in css ?
+//    TOMORROW-SEE HOW THE VEDIO IS PLAYING VIA USESTATE().
 
 
 /////////////////////////
